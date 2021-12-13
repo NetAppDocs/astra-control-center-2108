@@ -260,4 +260,4 @@ Now that you’ve verified that the prerequisites are met, you're ready to link:
 [discrete]
 == Find more information
 * https://netapp-trident.readthedocs.io/en/latest/frequently_asked_questions.html[Trident documentation^]
-* https://docs.netapp.com/us-en/astra-automation/index.html[Use the Astra API^]
+* https://docs.netapp.com/us-en/astra-automation-2108/index.html[Use the Astra API^]
