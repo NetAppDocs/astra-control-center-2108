@@ -83,7 +83,7 @@ If you define an app with a non-existent k8s label, Astra Control Center will cr
 
 == Unable to stop running app backup
 // DOC-3552/ASTRACTL-9586
-There is no way to stop a running backup. If you need to delete the backup, wait until it has completed and then use the instructions in link:../use/protect-apps.html#delete-backups[Delete backups]. To delete a failed backup, use the link:https://docs.netapp.com/us-en/astra-automation/index.html[Astra API^].
+There is no way to stop a running backup. If you need to delete the backup, wait until it has completed and then use the instructions in link:../use/protect-apps.html#delete-backups[Delete backups]. To delete a failed backup, use the link:https://docs.netapp.com/us-en/astra-automation-2108/index.html[Astra API^].
 
 == Backup or clone fails for apps using PVCs with decimal units in Astra Control Center
 //ASTRACTL-9948/DOC-3612
@@ -127,7 +127,7 @@ If you have an evaluation license, be sure you store your account ID to avoid da
 
 == Extra backups are retained as part of scheduled backup
 //ASTRACTL-10069/DOC-3609
-Sometimes one or more backups in Astra Control Center are retained beyond the number specified to be retained in the backup schedule. These extra backups should be deleted as part of a scheduled backup but are not deleted and are stuck in a `pending` state. To resolve the issue, https://docs.netapp.com/us-en/astra-automation/workflows/wf_delete_backup.html[force delete] the extra backups.
+Sometimes one or more backups in Astra Control Center are retained beyond the number specified to be retained in the backup schedule. These extra backups should be deleted as part of a scheduled backup but are not deleted and are stuck in a `pending` state. To resolve the issue, https://docs.netapp.com/us-en/astra-automation-2108/workflows/wf_delete_backup.html[force delete] the extra backups.
 
 == Clone operation can't use other buckets besides the default
 //DOC-3595/ASTRACTL-10071
@@ -232,7 +232,7 @@ kubectl delete crd ingressroutes.traefik.containo.us ingressroutetcps.traefik.co
 
 == ASUP collection stuck in a generating or uploading state
 //DOC-3813/ASTRACTL-12325
-If an ASUP pod is killed or restarted, an ASUP collection might become stuck in a generating or uploading state. Perform the following link:https://docs.netapp.com/us-en/astra-automation/index.html[Astra Control REST API] call to initiate manual collection again:
+If an ASUP pod is killed or restarted, an ASUP collection might become stuck in a generating or uploading state. Perform the following link:https://docs.netapp.com/us-en/astra-automation-2108/index.html[Astra Control REST API] call to initiate manual collection again:
 
 [cols="25,75"*,options="header"]
 |===

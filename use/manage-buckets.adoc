@@ -36,7 +36,7 @@ A bucket can be in one of these states:
 * available: The bucket is available for use.
 * removed: The bucket is not currently accessible.
 
-For instructions on how to manage buckets using the Astra API, see the link:https://docs.netapp.com/us-en/astra-automation/[Astra Automation and API information^].
+For instructions on how to manage buckets using the Astra API, see the link:https://docs.netapp.com/us-en/astra-automation-2108/[Astra Automation and API information^].
 
 You can do these tasks related to managing buckets:
 
@@ -51,7 +51,7 @@ NOTE: S3 buckets in Astra Control Center do not report available capacity. Befor
 
 Remove S3 credentials from an account at any time using the Astra Control API.
 
-For details, see https://docs.netapp.com/us-en/astra-automation/index.html[Use the Astra Control API^].
+For details, see https://docs.netapp.com/us-en/astra-automation-2108/index.html[Use the Astra Control API^].
 
 
 TIP: The first set of credentials that you add to Astra Control is always in use because Astra Control uses the credentials to authenticate the backup bucket. It’s best not to remove these credentials.
@@ -80,4 +80,4 @@ TIP: You can't modify the bucket type.
 
 == Find more information
 
-* https://docs.netapp.com/us-en/astra-automation/index.html[Use the Astra API^]
+* https://docs.netapp.com/us-en/astra-automation-2108/index.html[Use the Astra API^]
