@@ -9,7 +9,7 @@ settings:
     harmony_enabled: true
   versions:
     - version-number: "21.08"
-      url: /astra-control-center
+      url: /astra-control-center-2108
     - version-number: "22.08"
       url: /astra-control-center-2208
     - version-number: "22.04"
