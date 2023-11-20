@@ -1,4 +1,4 @@
 ---
 permalink: concepts/app-management.html
-redirect: index.html
+redirect: astra-control-center-2108/index.html
 ---
